@@ -1,0 +1,11 @@
+
+@font-face {
+  font-family: 'Odachi';
+  src: local('Odachi'), url(./fonts/Odachi.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'SummerHearts';
+  src: local('SummerHearts'), url(./fonts/SummerHearts-Regular.ttf) format('truetype');
+}
+
+

@@ -1,0 +1,45 @@
+body {
+    background-image: url('../assests/city.png');
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    /* min-height: 200%; */
+  }
+  
+.intro__nav{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-size: cover;
+    display: block;
+    height: 30%;
+}
+.intro__nav > ul {
+    list-style-type: none;
+    color: orange;
+    font-family: Odachi;
+    font-size: 8rem;
+}
+
+.intro__nav > ul > li{
+    font-family: SummerHearts;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.intro__nav > ul >li >a {
+    color:orange;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.intro__nav > ul >li >a:hover {
+    transform: scale(1.1);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    
+}
